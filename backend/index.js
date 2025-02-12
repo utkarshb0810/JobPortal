@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://localhost:5173",
+  origin: "https://jobportal-r1ee.onrender.com",
   credentials: true,
 };
 app.use(cors(corsOptions));
